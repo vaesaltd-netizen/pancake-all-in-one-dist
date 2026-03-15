@@ -557,7 +557,8 @@
 }
 
 .pcrm-manual-icon.pcrm-btn-manual-active {
-  color: #0891B2;
+  color: #0E7490;
+  filter: drop-shadow(0 0 2px rgba(14, 116, 144, 0.5));
 }
 
 /* Hide note dropdown toggle by default, show only in manual mode with VAS code */
