@@ -533,8 +533,8 @@
 }
 
 .pcrm-manual-icon {
-  width: 18px;
-  height: 18px;
+  width: 24px;
+  height: 24px;
   padding: 0;
   border: none;
   background: none;
@@ -548,17 +548,18 @@
 }
 
 .pcrm-manual-icon svg {
-  width: 14px;
-  height: 14px;
+  width: 20px;
+  height: 20px;
+  stroke-width: 2.5;
 }
 
 .pcrm-manual-icon:hover {
-  color: #0891B2;
+  color: #0369A1;
 }
 
 .pcrm-manual-icon.pcrm-btn-manual-active {
-  color: #0E7490;
-  filter: drop-shadow(0 0 2px rgba(14, 116, 144, 0.5));
+  color: #0369A1;
+  filter: drop-shadow(0 0 3px rgba(3, 105, 161, 0.6));
 }
 
 /* Hide note dropdown toggle by default, show only in manual mode with VAS code */
