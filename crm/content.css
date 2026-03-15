@@ -560,6 +560,11 @@
   color: #0891B2;
 }
 
+/* Hide note dropdown toggle by default, show only in manual mode with VAS code */
+.pcrm-note-toggle-hidden {
+  display: none !important;
+}
+
 .pcrm-btn-send {
   background: var(--pcrm-cta);
   color: white;
