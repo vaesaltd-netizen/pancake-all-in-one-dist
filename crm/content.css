@@ -527,44 +527,44 @@
   box-shadow: 0 4px 12px rgba(124, 58, 237, 0.25);
 }
 
-/* Small manual button below tabs */
-.pcrm-manual-row {
+/* Manual icon next to label */
+.pcrm-field-label-row {
   display: flex;
-  justify-content: flex-end;
-  padding: 4px 12px;
-  background: var(--pcrm-bg-secondary);
-  border-bottom: 1px solid var(--pcrm-border);
-}
-
-.pcrm-btn-manual-small {
-  display: inline-flex;
   align-items: center;
-  gap: 3px;
-  padding: 3px 10px;
-  font-size: 11px;
-  font-weight: 500;
-  color: #7c3aed;
-  background: transparent;
-  border: 1px solid #c4b5fd;
-  border-radius: 12px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.pcrm-field-label-row label {
+  margin-bottom: 0;
+}
+
+.pcrm-manual-icon {
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--pcrm-text-muted);
   cursor: pointer;
-  transition: all 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.15s;
+  flex-shrink: 0;
 }
 
-.pcrm-btn-manual-small svg {
-  width: 12px;
-  height: 12px;
+.pcrm-manual-icon svg {
+  width: 14px;
+  height: 14px;
 }
 
-.pcrm-btn-manual-small:hover {
-  background: rgba(124, 58, 237, 0.08);
-  border-color: #7c3aed;
+.pcrm-manual-icon:hover {
+  color: #0891B2;
 }
 
-.pcrm-btn-manual-small.pcrm-btn-manual-active {
-  background: #7c3aed !important;
-  color: white !important;
-  border-color: #7c3aed !important;
+.pcrm-manual-icon.pcrm-btn-manual-active {
+  color: #0891B2;
 }
 
 .pcrm-btn-send {
